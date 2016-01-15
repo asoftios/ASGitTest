@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"AS Git Test 2");
+    NSLog(@"AS Git Test after changes 2");
 }
 
 - (void)didReceiveMemoryWarning {

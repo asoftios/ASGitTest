@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C959C26E1C49139E00270EFB /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C959C26D1C49139E00270EFB /* TestObject.m */; };
 		C9C0DA7F1C4910C8007DADCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0DA7E1C4910C8007DADCD /* main.m */; };
 		C9C0DA821C4910C8007DADCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0DA811C4910C8007DADCD /* AppDelegate.m */; };
 		C9C0DA851C4910C8007DADCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0DA841C4910C8007DADCD /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C959C26C1C49139E00270EFB /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		C959C26D1C49139E00270EFB /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 		C9C0DA7A1C4910C8007DADCD /* ASGitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASGitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C0DA7E1C4910C8007DADCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9C0DA801C4910C8007DADCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				C9C0DA811C4910C8007DADCD /* AppDelegate.m */,
 				C9C0DA831C4910C8007DADCD /* ViewController.h */,
 				C9C0DA841C4910C8007DADCD /* ViewController.m */,
+				C959C26C1C49139E00270EFB /* TestObject.h */,
+				C959C26D1C49139E00270EFB /* TestObject.m */,
 				C9C0DA861C4910C8007DADCD /* Main.storyboard */,
 				C9C0DA891C4910C8007DADCD /* Assets.xcassets */,
 				C9C0DA8B1C4910C8007DADCD /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				C9C0DA851C4910C8007DADCD /* ViewController.m in Sources */,
 				C9C0DA821C4910C8007DADCD /* AppDelegate.m in Sources */,
+				C959C26E1C49139E00270EFB /* TestObject.m in Sources */,
 				C9C0DA7F1C4910C8007DADCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +306,7 @@
 				C9C0DA931C4910C8007DADCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
